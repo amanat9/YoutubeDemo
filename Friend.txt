@@ -1,0 +1,12 @@
+Class Friend
+
+{ List<Node> a; 
+
+	public static void main()
+	{
+           a= Hello.a;
+
+	 a.add(new Node(1));
+	}
+
+}

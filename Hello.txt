@@ -1,8 +1,14 @@
 public class Hello
-{
+{	
+
+	public static List<Node> a = new List<Node>();
 	public static void main(String args[])
 	{
 		print("Started the project");
+		for(i=0;i<5;i++)
+		{
+		  a.add(i);	
+		}
 	}
 	void Cool()
 	{
@@ -16,3 +22,17 @@ public class Hello
 
 
 }
+
+
+class Node()
+{
+	public int value;
+	public Node (int val)
+	{value= val;}
+}
+
+
+
+
+
+

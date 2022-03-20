@@ -5,10 +5,14 @@ public class Hello
 	public static void main(String args[])
 	{
 		print("Started the project");
+
 		for(i=0;i<5;i++)
 		{
 		  a.add(i);	
 		}
+
+		
+
 	}
 	void Cool()
 	{
